@@ -1,0 +1,17 @@
+﻿Build started 12/22/2019 9:03:40 PM.
+     1>Project "C:\D\Data_2\c++\GIT\Design_Pattern\Stategy Pattern\Stategy Pattern\Stategy Pattern.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Stategy Pattern.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Stategy Pattern.vcxproj -> C:\D\Data_2\c++\GIT\Design_Pattern\Stategy Pattern\Debug\Stategy Pattern.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Stategy Pattern.unsuccessfulbuild".
+         Touching "Debug\Stategy Pattern.lastbuildstate".
+     1>Done Building Project "C:\D\Data_2\c++\GIT\Design_Pattern\Stategy Pattern\Stategy Pattern\Stategy Pattern.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.09
