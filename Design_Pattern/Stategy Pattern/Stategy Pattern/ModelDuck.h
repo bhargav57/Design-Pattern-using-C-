@@ -8,6 +8,8 @@ class ModelDuck:public Duck
 public:
 	ModelDuck(void);
 	~ModelDuck(void);
-	virtual void action();
+	void action();
+	void setFlyBehaviour(FlyBehaviour *flyBehObj);
+	void setQuackBehaviour(QuackBehaviour *quckBehvObj);
 };
 

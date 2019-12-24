@@ -13,5 +13,7 @@ public:
 	FlyBehaviour   *flyObj;
 	
 	void action();
+	virtual void setFlyBehaviour(FlyBehaviour *flyObj)=0;
+	virtual void setQuackBehaviour(QuackBehaviour *quckBehvObj)=0;
 };
 

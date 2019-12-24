@@ -1,12 +1,9 @@
 #include "MallardDuck.h"
 
 
-MallardDuck::MallardDuck(void)
+MallardDuck::MallardDuck()
 {
-	flyObj   = new FlyWithWings();
-	quackObj = new Quack();
 }
-
 
 MallardDuck::~MallardDuck(void)
 {
@@ -18,3 +15,11 @@ void MallardDuck::action()
 	quackObj->quack();
 }
 
+void MallardDuck::setFlyBehaviour(FlyBehaviour *flyBehObj)
+{
+	flyObj = flyBehObj;
+}
+void MallardDuck::setQuackBehaviour(QuackBehaviour *quckBehvObj)
+{
+	quackObj = quckBehvObj;
+}

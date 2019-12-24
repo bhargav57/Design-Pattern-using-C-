@@ -4,6 +4,6 @@ class FlyBehaviour
 public:
 	FlyBehaviour(void);
 	~FlyBehaviour(void);
-	virtual void fly()=0;
+	virtual void fly();
 };
 

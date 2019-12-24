@@ -3,7 +3,7 @@
 
 ModelDuck::ModelDuck(void)
 {
-	flyObj   = new FlyNoWay();
+	/*flyObj   = new FlyNoWay();*/
 	quackObj = new MuteQuack();
 }
 
@@ -16,4 +16,14 @@ void ModelDuck::action()
 {
 	flyObj->fly();
 	quackObj->quack();
+}
+
+void ModelDuck::setFlyBehaviour(FlyBehaviour *flyBehObj)
+{
+	flyObj = flyBehObj;
+}
+
+void ModelDuck::setQuackBehaviour(QuackBehaviour *quckBehvObj)
+{
+	quackObj = quckBehvObj;
 }

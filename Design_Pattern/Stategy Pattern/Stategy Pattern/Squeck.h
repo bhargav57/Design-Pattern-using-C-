@@ -1,7 +1,8 @@
 #pragma once
+#include "QuackBehaviour.h"
 #include <iostream>
 using namespace std;
-class Squeck
+class Squeck:public QuackBehaviour
 {
 public:
 	Squeck(void);
