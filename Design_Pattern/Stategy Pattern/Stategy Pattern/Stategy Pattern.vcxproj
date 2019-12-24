@@ -83,6 +83,7 @@
     <ClInclude Include="MuteQuack.h" />
     <ClInclude Include="Quack.h" />
     <ClInclude Include="QuackBehaviour.h" />
+    <ClInclude Include="RubberDuck.h" />
     <ClInclude Include="Squeck.h" />
   </ItemGroup>
   <ItemGroup>
@@ -96,6 +97,7 @@
     <ClCompile Include="MuteQuack.cpp" />
     <ClCompile Include="Quack.cpp" />
     <ClCompile Include="QuackBehaviour.cpp" />
+    <ClCompile Include="RubberDuck.cpp" />
     <ClCompile Include="Squeck.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
