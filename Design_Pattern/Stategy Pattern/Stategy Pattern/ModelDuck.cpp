@@ -2,9 +2,7 @@
 
 
 ModelDuck::ModelDuck(void)
-{
-	/*flyObj   = new FlyNoWay();*/
-	quackObj = new MuteQuack();
+{	
 }
 
 

@@ -1,35 +1,9 @@
-﻿Build started 12/24/2019 9:42:45 AM.
-     1>Project "C:\D\Data_2\c++\GIT\Design_Pattern\Stategy Pattern\Stategy Pattern\Stategy Pattern.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Touching "Debug\Stategy Pattern.unsuccessfulbuild".
-       ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Squeck.cpp main.cpp
-         Squeck.cpp
-         Generating Code...
-         Compiling...
-         main.cpp
-         Generating Code...
-       Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\D\Data_2\c++\GIT\Design_Pattern\Stategy Pattern\Debug\Stategy Pattern.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Stategy Pattern.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\D\Data_2\c++\GIT\Design_Pattern\Stategy Pattern\Debug\Stategy Pattern.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\D\Data_2\c++\GIT\Design_Pattern\Stategy Pattern\Debug\Stategy Pattern.lib" /MACHINE:X86 Debug\Duck.obj
-         Debug\FlyBehaviour.obj
-         Debug\FlyNoWay.obj
-         Debug\FlyWithWings.obj
-         Debug\main.obj
-         Debug\MallardDuck.obj
-         Debug\ModelDuck.obj
-         Debug\MuteQuack.obj
-         Debug\Quack.obj
-         Debug\QuackBehaviour.obj
-         Debug\Squeck.obj
-     1>Duck.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
-         Stategy Pattern.vcxproj -> C:\D\Data_2\c++\GIT\Design_Pattern\Stategy Pattern\Debug\Stategy Pattern.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\D\Data_2\c++\GIT\Design_Pattern\Stategy Pattern\Debug\Stategy Pattern.exe;#1" /manifest "Debug\Stategy Pattern.exe.intermediate.manifest"
-       FinalizeBuildStatus:
-         Deleting file "Debug\Stategy Pattern.unsuccessfulbuild".
-         Touching "Debug\Stategy Pattern.lastbuildstate".
-     1>Done Building Project "C:\D\Data_2\c++\GIT\Design_Pattern\Stategy Pattern\Stategy Pattern\Stategy Pattern.vcxproj" (build target(s)).
+﻿Build started 12/24/2019 10:19:30 AM.
+     1>Project "C:\D\Data_2\c++\GIT\Design_Pattern\Stategy Pattern\Stategy Pattern\Stategy Pattern.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Stategy Pattern.lastbuildstate".
+     1>Done Building Project "C:\D\Data_2\c++\GIT\Design_Pattern\Stategy Pattern\Stategy Pattern\Stategy Pattern.vcxproj" (clean target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.46
+Time Elapsed 00:00:00.04
