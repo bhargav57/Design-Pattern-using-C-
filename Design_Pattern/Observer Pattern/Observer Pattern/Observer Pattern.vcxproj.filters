@@ -33,6 +33,9 @@
     <ClCompile Include="DisplayElement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="forecasetDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Subject.h">
@@ -48,6 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DisplayElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="forecasetDisplay.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
