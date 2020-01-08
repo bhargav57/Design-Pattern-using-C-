@@ -77,12 +77,14 @@
     <ClInclude Include="Beverage.h" />
     <ClInclude Include="CondimentDecorator.h" />
     <ClInclude Include="Expresso.h" />
+    <ClInclude Include="HouseBlend.h" />
     <ClInclude Include="Mocha.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Beverage.cpp" />
     <ClCompile Include="CondimentDecorator.cpp" />
     <ClCompile Include="Expresso.cpp" />
+    <ClCompile Include="HouseBlend.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mocha.cpp" />
   </ItemGroup>

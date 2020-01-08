@@ -2,6 +2,7 @@
 #include "Beverage.h"
 #include "Mocha.h"
 #include "Expresso.h"
+#include "HouseBlend.h"
 #include <iostream>
 
 using namespace std;
@@ -14,6 +15,12 @@ int main()
 	bv2->getDescription();
 	std::cout<<"\n";
 	std::cout<<bv2->getCost();
+	std::cout<<"\n";
+
+	Beverage *bv3 = new HouseBlend(bv);
+	bv3->getDescription();
+	std::cout<<"\n";
+	std::cout<<bv3->getCost();
 	std::cout<<"\n";
 
 
