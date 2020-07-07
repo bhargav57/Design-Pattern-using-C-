@@ -4,7 +4,7 @@
 #include<thread>
 #include<mutex>
 using namespace std;
-class Vdata
+class Vdat
 {
 public:
 	void open();
@@ -12,28 +12,28 @@ public:
 };
 
 
-class FDataB :public Vdata
+class FDataB :public Vdat
 {
  //private variable
 public:
 
 };
 
-class FDataD :public Vdata
+class FDataD :public Vdat
 {
 	//private variable
 public:
 };
 
 
-class CDataB :public Vdata
+class MDataB :public Vdat
 {
 	//private variable
 public:
 
 };
 
-class CDataD :public Vdata
+class MDataD :public Vdat
 {
 	//private variable
 public:
@@ -42,7 +42,7 @@ public:
 class parser
 {
 public:
-	virtual Vdata* parse(string type) = 0;
+	virtual Vdat* parse(string type) = 0;
 	void open(string fname, string type)
 	{
 		//file open
@@ -56,7 +56,7 @@ class parseFdata :public parser
 {
 public:
 	
-	Vdata* parse(string type)
+	Vdat* parse(string type)
 	{
 		if (type == "B")
 		{
@@ -69,18 +69,18 @@ public:
 	}
 };
 
-class parseCdata :public parser
+class parseMdata :public parser
 {
 public:
-	Vdata* parse(string type)
+	Vdat* parse(string type)
 	{
 		if (type == "B")
 		{
-			return new CDataB();
+			return new MDataB();
 		}
 		else if (type == "D")
 		{
-			return new CDataD();
+			return new MDataD();
 		}
 	}
 };
@@ -88,13 +88,6 @@ public:
 
 int main()
 {
-	pizzaStore* nyPizzastore = new NYstylePizzaStore();
-	nyPizzastore->orderPizza("cheese");
-
-	std::cout << "Here comes the second pizza ------> \n\n\n\n\n";
-
-	pizzaStore* chicagoPizzaStore = new ChicagoStylePizzaStore();
-	chicagoPizzaStore->orderPizza("farm");
-
+	
 	return 0;
 }
